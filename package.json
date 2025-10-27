@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "npm run build"
   },
   "devDependencies": {
     "vite": "^6.2.2",
