@@ -175,7 +175,7 @@ camera.position.z = 4
 if(window.innerWidth <=768){
     console.log('work');
     
-    camera.position.z = 11
+    camera.position.z = 13
     camera.position.x = 8
 }
 scene.add(camera)
