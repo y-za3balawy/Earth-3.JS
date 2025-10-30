@@ -170,6 +170,14 @@ const camera = new THREE.PerspectiveCamera(25, sizes.width / sizes.height, 0.1, 
 camera.position.x = 12
 camera.position.y = 5
 camera.position.z = 4
+
+
+if(window.innerWidth <=768){
+    console.log('work');
+    
+    camera.position.z = 11
+    camera.position.x = 8
+}
 scene.add(camera)
 
 // Controls
